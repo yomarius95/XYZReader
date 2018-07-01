@@ -16,10 +16,8 @@
 -->
 
 <resources>
-    <color name="photo_placeholder">#ccc</color>
-
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
-    <color name="ltgray">#ffe0e0e0</color>
+    <color name="theme_primary">#fc5821</color>
+    <color name="theme_primary_dark">#e34b18</color>
+    <color name="theme_accent">#21c4fb</color>
+    <color name="ltgray">@android:color/darker_gray</color>
 </resources>
