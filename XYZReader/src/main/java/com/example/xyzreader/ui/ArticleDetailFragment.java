@@ -322,6 +322,7 @@ public class ArticleDetailFragment extends Fragment implements
                     @Override
                     public boolean onPreDraw() {
                         sharedImage.getViewTreeObserver().removeOnPreDrawListener(this);
+                        sharedImage.getParent().requestLayout();
                         getActivity().startPostponedEnterTransition();
                         return true;
                     }

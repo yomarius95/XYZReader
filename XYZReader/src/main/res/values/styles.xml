@@ -24,9 +24,8 @@
 
         <item name="android:windowContentTransitions">true</item>
 
-        <item name="android:windowExitTransition">
-            @transition/exit_animation
-        </item>
+        <item name="android:windowExitTransition">@transition/exit_explode</item>
+        <item name="android:windowEnterTransition">@transition/enter_slide</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
