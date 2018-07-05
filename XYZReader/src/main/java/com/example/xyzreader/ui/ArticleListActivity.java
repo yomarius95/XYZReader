@@ -10,6 +10,7 @@ import android.content.IntentFilter;
 import android.content.Loader;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -134,6 +135,8 @@ public class ArticleListActivity extends AppCompatActivity implements
                     new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
             mRecyclerView.setLayoutManager(llm);
         }
+
+        Snackbar.make(findViewById(R.id.list_coordinator_layout), R.string.snackbar_message, Snackbar.LENGTH_SHORT).show();
     }
 
     @Override

@@ -10,5 +10,6 @@
     <string name="up">Up</string>
 
     <string name="transition_name">transition name</string>
+    <string name="snackbar_message">Finished loading!</string>
 
 </resources>
